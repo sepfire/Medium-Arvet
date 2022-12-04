@@ -1,0 +1,17 @@
+.content{
+    background-image: url(/images/MA-Band.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    width: 100%;
+}
+
+.icon{
+    height: 20px;
+}
