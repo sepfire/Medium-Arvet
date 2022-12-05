@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: red;
 }
 
 .accordion{
@@ -10,4 +10,7 @@ body{
 
 .icon{
     height: 20px;
+}
+.row{
+    color: white;
 }
