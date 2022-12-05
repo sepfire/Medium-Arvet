@@ -18,8 +18,35 @@ function Clicked(){
     ImageSlot.inner = "saojdoksajfalksjlkfa";
 } */
 
-function ChangeImage(ImageName){
+/* function ChangeImage(ImageName){
     let Image = document.querySelector("#Kuva");
     Image.setAttribute("src", ImageName);
-}
+} */
+
+/* eetu.addEventListener("click", addPicture);
+ */
+/* let EetuImg = "images\Eetu.jpg";
+let TuomoImg = "images\Tuomo.jpg";
+let JuhoImg = "images\Juho.jpg";
+let NikoImg = "images\Niko.jpg";
+let SamuliImg = "images\Samuli.jpg";
+ */
+
+let pictureDiv = document.querySelector("#kuva");
+eetu.addEventListener("click", () => {
+    pictureDiv.style.backgroundImage = `url("/images/Eetu.jpg")`;
+});
+Juho.addEventListener("click", () => {
+    pictureDiv.style.backgroundImage = `url("/images/Juho.jpg")`;
+});
+Tuomo.addEventListener("click", () => {
+    pictureDiv.style.backgroundImage = `url("/images/Tuomo.jpg")`;
+});
+Niko.addEventListener("click", () => {
+    pictureDiv.style.backgroundImage = `url("/images/Niko.jpg")`;
+});
+Samuli.addEventListener("click", () => {
+    pictureDiv.style.backgroundImage = `url("/images/Samuli.jpg")`;
+});
+
 

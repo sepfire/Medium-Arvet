@@ -11,6 +11,11 @@ body{
 .icon{
     height: 20px;
 }
-.row{
-    color: white;
+
+#kuva{
+    background-image: url(/images/Eetu.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px; 
 }
