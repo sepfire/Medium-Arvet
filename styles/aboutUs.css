@@ -1,5 +1,11 @@
 body{
-    background-color: red;
+    background-color: black;
+}
+
+.container{
+    background-image: url(/images/BackgroundImage.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 .accordion{
@@ -13,9 +19,15 @@ body{
 }
 
 #kuva{
+    
     background-image: url(/images/Eetu.jpg);
-    background-size:contain;
+    background-size: contain;
     background-repeat: no-repeat;
-    height: 400px;
-    width: 400px; 
+    height: 45vh;
+    width: 45vw;
+}
+
+#infobox{
+    display: inline-block;
+    color: white;
 }
