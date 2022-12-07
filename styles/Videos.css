@@ -11,8 +11,19 @@ body{
     background-image: url(/images/BackgroundImage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    align-items: center;
+}
+.icon{
+    height: 20px;
+}
+.img-fluid{
+    margin:10px;
+    display: flex;
+    width: 20vw;
 }
 
-
+.img-fluid:hover{
+    
+    border: solid red 10px;
+    opacity: 40%;
+}

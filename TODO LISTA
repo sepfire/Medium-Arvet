@@ -4,4 +4,26 @@
 4. käyttää Sass:ia lisä pojojen hakuun.
 5. Muokata dropdown menua
 
-mistään ei tuu mitään
+LIGHTBOX videoille
+
+<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
+
+
+ESIMERKKI HTML puolelle
+<div class="row">
+	<a href="## YOUTUBE EMBED LINK##" data-toggle="lightbox" data-gallery="youtubevideos" class="col-sm-4">
+		<img src="## VIDEON KANSIKUVA ##" class="img-fluid">
+	</a>
+	<a href="## YOUTUBE EMBED LINK##" data-toggle="lightbox" data-gallery="youtubevideos" class="col-sm-4">
+		<img src="## VIDEON KANSIKUVA ##" class="img-fluid">
+	</a>
+	<a href="## YOUTUBE EMBED LINK##" data-toggle="lightbox" data-gallery="youtubevideos" class="col-sm-4">
+		<img src="## VIDEON KANSIKUVA ##" class="img-fluid">
+	</a>
+</div>
+
+
+------------ 
+
+<p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" data-toggle="lightbox">Justin Bieber - LoveYourself</a></p>
+<p><a href="https://youtu.be/b0jqPvpn3sY" data-toggle="lightbox">Tame Impala - Elephant (using youtu.be link)</a></p>
