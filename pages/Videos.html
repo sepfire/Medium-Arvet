@@ -10,6 +10,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
 <link rel="stylesheet" href="/styles/Videos.css">
+<script src="/scriptit/video.js" defer></script>
 
     <title>Music Video's</title>
 </head>
@@ -19,13 +20,16 @@
     <header></header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3QT4NDzNKrUyR0Sd0NslXJ?utm_source=generator&theme=0" width="30%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            <img src="/images/MA-nimi2.jpg" style="height: 80px; border-radius: 12px;">
+        <!-- Spotify player embed -->
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3QT4NDzNKrUyR0Sd0NslXJ?utm_source=generator&theme=0" width="30%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <!-- bändin logo -->
+        <img src="/images/MA-nimi2.jpg" style="height: 80px; border-radius: 12px;">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
+            <!-- sivun vaihtolinkit -->
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="/index.html">Etusivulle</a>
             </li>
@@ -42,6 +46,7 @@
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Sosiaalinen media
               </a>
+              <!-- Dropdown menu alkaa -->
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="https://www.instagram.com/mediumarvet/" target="_blank"><img class="icon" src="/images/InstagramIcon.png">Instagram</a></li>
                 <li><a class="dropdown-item" href="https://www.facebook.com/medium.arvet" target="_blank"><img class="icon" src="/images/FacebookIcon.png">Facebook</a></li>
@@ -58,46 +63,24 @@
     </nav>
   </main>
       <!-- Nav Bar loppuu -->
+               
+      <!--  TOIMIVA POP UP VIDEO PLAYER -->
 
-      <!-- Content alkaa -->
-      
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="text">Mistään Ei Tuu Mitään</div>
-                <iframe class="VideoFrame" src="https://www.youtube.com/embed/3GCd119EiVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="col">
-              <div class="text">Kaksin Käsin</div>
-                <iframe class="VideoFrame" src="https://www.youtube.com/embed/kiWfU4qAgRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="col">
-              <div class="text">Meedio</div>
-                <iframe class="VideoFrame" src="https://www.youtube.com/embed/JTTN7wB_048" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="col">
-              <div class="text">Vuosisata</div>
-                <iframe class="VideoFrame" src="https://www.youtube.com/embed/A8v_lSZjIxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </div>
+<img class="kuvaClick" src="/images/MistäänEiTuuMitään.jpg" id="clickKuva"> here for video!</img>
+  <div id="myModal" class="modal">             
+    <div class="modal-content">
+      <span class="close">Close</span>
+      <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/3GCd119EiVw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    </div>               
+</div>
 
-<!-- TOINEN VAIHTOEHTO VIDEO FRAMELLE -->
-<!--     
-      <div class="row">
-        <a href="https://www.youtube.com/embed/3GCd119EiVw" data-toggle="lightbox" data-gallery="youtubevideos" class="col-sm">
-          <img src="/images/MistäänEiTuuMitään.jpg" class="img-fluid">
-        </a>
-        <a href="https://www.youtube.com/embed/kiWfU4qAgRk" data-toggle="lightbox" data-gallery="youtubevideos" class="col-sm">
-          <img src="/images/KaksinKäsin.jpg" class="img-fluid">
-        </a>
-        <a href="https://www.youtube.com/embed/JTTN7wB_048" data-toggle="lightbox" data-gallery="youtubevideos" class="col-sm">
-          <img src="/images/Meedio.jpg" class="img-fluid">
-        </a>
-        <a href="https://www.youtube.com/embed/A8v_lSZjIxs" data-toggle="lightbox" data-gallery="youtubevideos" class="col-sm">
-          <img src="/images/Vuosisata.jpg" class="img-fluid">
-        </a>
-      </div> -->
-      
+<img class="kuvaClick"src="/images/KaksinKäsin.jpg" id="clickKuva"> here for video!</img>       
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">Close</span>
+        <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/kiWfU4qAgRk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    </div>                              
+</div>    
 
 </body>
 </html>
