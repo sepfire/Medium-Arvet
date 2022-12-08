@@ -1,11 +1,6 @@
-.videoFrame{
-    height: 315px;
-    width: 30%vw;
-
-}
 
 .navbar{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 body{
     background-image: url(/images/BackgroundImage.jpg);
@@ -19,11 +14,20 @@ body{
 .img-fluid{
     margin:10px;
     display: flex;
-    width: 20vw;
+    width: 10vw;
 }
 
 .img-fluid:hover{
     
     border: solid red 10px;
+    border-radius: 10px;
     opacity: 40%;
+}
+
+.text{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: rgb(133, 158, 23);
 }
