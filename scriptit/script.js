@@ -34,19 +34,19 @@ let SamuliImg = "images\Samuli.jpg";
 
 let pictureDiv = document.querySelector("#kuva");
 eetu.addEventListener("click", () => {
-    pictureDiv.style.backgroundImage = `url("/images/Eetu.jpg")`;
+    pictureDiv.style.backgroundImage = `url("../images/Eetu.jpg")`;
 });
 Juho.addEventListener("click", () => {
-    pictureDiv.style.backgroundImage = `url("/images/Juho.jpg")`;
+    pictureDiv.style.backgroundImage = `url("../images/Juho.jpg")`;
 });
 Tuomo.addEventListener("click", () => {
-    pictureDiv.style.backgroundImage = `url("/images/Tuomo.jpg")`;
+    pictureDiv.style.backgroundImage = `url("../images/Tuomo.jpg")`;
 });
 Niko.addEventListener("click", () => {
-    pictureDiv.style.backgroundImage = `url("/images/Niko.jpg")`;
+    pictureDiv.style.backgroundImage = `url("../images/Niko.jpg")`;
 });
 Samuli.addEventListener("click", () => {
-    pictureDiv.style.backgroundImage = `url("/images/Samuli.jpg")`;
+    pictureDiv.style.backgroundImage = `url("../images/Samuli.jpg")`;
 });
 
 
